@@ -12,5 +12,9 @@ include vendor/xiaomi/zeus/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/zeus
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_zeus
+TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_zeus
+
 # Screen density
 TARGET_SCREEN_DENSITY := 560
