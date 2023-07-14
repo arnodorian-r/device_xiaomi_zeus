@@ -12,8 +12,5 @@ include vendor/xiaomi/zeus/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/zeus
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
-
 # Screen density
 TARGET_SCREEN_DENSITY := 560
