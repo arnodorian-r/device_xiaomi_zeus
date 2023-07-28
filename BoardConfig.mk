@@ -20,4 +20,4 @@ TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_zeus
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Screen density
-TARGET_SCREEN_DENSITY := 560
+TARGET_SCREEN_DENSITY := 526
