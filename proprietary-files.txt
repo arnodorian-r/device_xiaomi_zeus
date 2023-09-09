@@ -506,6 +506,9 @@ vendor/etc/display/backlight_calib_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/mdss_dsi_l2_38_0c_0a_dsc_cmd_mi.xml
 
+# Device Features
+product/etc/device_features/zeus.xml
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.default.so
